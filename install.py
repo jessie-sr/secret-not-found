@@ -17,7 +17,7 @@ def main() -> None:
     dest = hooks_dir / "run-scanner"
     shutil.copy2(HOOK_SRC, dest)
     dest.chmod(dest.stat().st_mode | stat.S_IEXEC)
-    print("✅  Pre‑push secret scanner installed!")
+    print("✅  Secret scanner installed!")
 
 if __name__ == "__main__":
     main()
