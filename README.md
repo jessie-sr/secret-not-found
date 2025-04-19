@@ -15,17 +15,17 @@ git clone https://github.com/yux-m/secret_not_found_test.git
 cd secret_not_found_test
 ```
 
-## Make the scan hook executable
+## Run the scan (at the directory one level higher than secret-not-found)
 ```bash 
-chmod +x secret-not-found/scan.sh   # run this at the dir one level higher than secret-not-found
+bash secret-not-found/scan.sh
 ```
 
-## Trigger a *failing* push
+## (Opeional) Trigger a *failing* push
 ```bash
 echo "const STRIPE_KEY = 'sk_live_12345678901234567890abcd';" > leak.js
 git add leak.js
 git commit -m "intentional secret for test"
-secret-not-found/scan.sh            # run a scan
+bash secret-not-found/scan.sh
 ```
 
 The push should fail and you should see something like:
