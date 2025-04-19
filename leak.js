@@ -1,1 +1,0 @@
-const STRIPE_KEY = 'sk_live_12345678901234567890abcd';
