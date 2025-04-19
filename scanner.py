@@ -13,6 +13,7 @@ from pathlib import Path
 import re
 import importlib.util
 import time
+import shutil
 
 # Get the directory of the current script
 SCRIPT_DIR = Path(__file__).parent.absolute()
@@ -138,6 +139,59 @@ def main() -> None:
     # print("💡  Suggestion: Move secrets to environment variables (.env) and reference them, "
     #       "or add false positives to an ignore list.\n")
     print("👉  Bypass (not recommended): git push --no-verify\n")
+
+    choice = input("\n🛡️  Do you want to add these files to .gitignore to prevent accidental commits? (y/N): ").strip().lower()
+    if choice == 'y':
+        gitignore_path = Path(".gitignore")
+        existing_ignores = set()
+        if gitignore_path.exists():
+            existing_ignores = set(gitignore_path.read_text().splitlines())
+
+        with gitignore_path.open("a") as f:
+            for file in offenders:
+                if str(file) not in existing_ignores:
+                    f.write(f"\n{file}")
+
+        print("✅ Added to .gitignore.")
+        print("ℹ️  Reminder: These files are now ignored, but if they were previously tracked by Git, you should unstage them:")
+        for file in offenders:
+            print(f"   git rm --cached {file}")
+        print("💡 Then commit the removal to fully stop tracking them.")
+
+    
+    # choice = input("\n🧹 Do you want to remove these files from your Git history? (y/N): ").strip().lower()
+    # if choice == 'y':
+    #     for file in offenders:
+    #         rel_path = str(file)
+    #         backup_path = Path(f"{rel_path}.backup")
+
+    #         # Step 1: Back up the file
+    #         try:
+    #             shutil.copy(rel_path, backup_path)
+    #             print(f"📦 Backed up {rel_path} to {backup_path}")
+    #         except Exception as e:
+    #             print(f"⚠️ Failed to back up {rel_path}: {e}")
+    #             continue
+
+    #         # Step 2: Remove from history
+    #         print(f"🔨 Rewriting history to remove {rel_path}...")
+    #         try:
+    #             subprocess.run(
+    #                 ["git", "filter-repo", "--force", "--path", rel_path, "--invert-paths"],
+    #                 check=True
+    #             )
+    #             print(f"✅ Removed {rel_path} from history.")
+    #         except subprocess.CalledProcessError:
+    #             print(f"❌ Failed to remove {rel_path} from history.", file=sys.stderr)
+    #             continue
+
+    #         # Step 3: Restore the file
+    #         try:
+    #             shutil.move(backup_path, rel_path)
+    #             print(f"♻️ Restored {rel_path} from backup.")
+    #         except Exception as e:
+    #             print(f"⚠️ Failed to restore {rel_path}: {e}")
+
     sys.exit(1)  # Block push
 
 
