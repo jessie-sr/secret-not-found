@@ -13,16 +13,11 @@ For example:
 ```bash
 git clone https://github.com/yux-m/secret_not_found_test.git
 cd secret_not_found_test
-````
+```
 
-## Install the run-scanner hook
+## Make the scan hook executable
 ```bash 
-python3 ../secret-not-found/install.py   # copies hook → .git/hooks/run-scanner
-```
-
-You should see:
-```
-✅ Secret scanner installed as pre-push hook!
+chmod +x secret-not-found/scan.sh   # run this at the dir one level higher than secret-not-found
 ```
 
 ## Trigger a *failing* push
@@ -30,7 +25,7 @@ You should see:
 echo "const STRIPE_KEY = 'sk_live_12345678901234567890abcd';" > leak.js
 git add leak.js
 git commit -m "intentional secret for test"
-git push      # ← scanner runs
+secret-not-found/scan.sh            # run a scan
 ```
 
 The push should fail and you should see something like:
