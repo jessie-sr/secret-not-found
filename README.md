@@ -33,7 +33,7 @@ git commit -m "intentional secret for test"
 git push      # ← scanner runs
 ```
 
-The push should fail and you should see:
+The push should fail and you should see something like:
 ```
 🚨  Secret(s) detected! Push blocked to protect your keys.
 
@@ -42,8 +42,6 @@ leak.js:1 [Stripe secret]
 
 leak.js:1 [High entropy]
   const STRIPE_KEY = 'sk_live_12345678901234567890abcd';
-
-💡  Suggestion: Move secrets to environment variables (.env) and reference them, or add false positives to an ignore list.
 
 👉  Bypass (not recommended): git push --no-verify
 
