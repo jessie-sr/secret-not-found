@@ -106,7 +106,7 @@ def main() -> None:
         print("Hook test OK")
         sys.exit(0)
 
-    print("🔍 Scanning for secrets in files to be pushed...")
+    # print("🔍 Scanning for secrets in files to be pushed...")
 
     # Load our patterns and entropy function
     patterns = load_patterns()
@@ -135,8 +135,8 @@ def main() -> None:
     for path, hits in offenders.items():
         for ln, detector, snippet in hits:
             print(f"{path}:{ln} [{detector}]\n  {snippet}\n")
-    print("💡  Suggestion: Move secrets to environment variables (.env) and reference them, "
-          "or add false positives to an ignore list.\n")
+    # print("💡  Suggestion: Move secrets to environment variables (.env) and reference them, "
+    #       "or add false positives to an ignore list.\n")
     print("👉  Bypass (not recommended): git push --no-verify\n")
     sys.exit(1)  # Block push
 

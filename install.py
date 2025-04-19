@@ -45,19 +45,19 @@ def main() -> None:
     if not dest.exists():
         sys.exit("❌ Failed to create hook file.")
 
-    # Test execute the hook to make sure it's working
     print("✅ Secret scanner installed as pre-push hook!")
-    print("🔍 Testing hook execution...")
-    try:
-        # Just checking if the script runs without actually processing any files
-        subprocess.run([str(dest), "--test"], check=False)
-        print("✅ Hook execution test passed.")
-    except Exception as e:
-        print(f"⚠️  Warning: Hook test failed: {e}")
-        print("   Please check permissions and Python installation.")
+
+    # # Test execute the hook to make sure it's working
+    # print("🔍 Testing hook execution...")
+    # try:
+    #     # Just checking if the script runs without actually processing any files
+    #     subprocess.run([str(dest), "--test"], check=False)
+    #     print("✅ Hook execution test passed.")
+    # except Exception as e:
+    #     print(f"⚠️  Warning: Hook test failed: {e}")
+    #     print("   Please check permissions and Python installation.")
 
     print("\n💡 How to use: The scanner will automatically run before each 'git push'")
-    print("   If secrets are found, the push will be blocked.")
 
 
 if __name__ == "__main__":
