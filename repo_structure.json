@@ -1,0 +1,821 @@
+{
+  "repo_name": "s\u2011n\u2011f_k1gmwor5",
+  "directories": {
+    "frontend/static/images": {
+      "name": "images",
+      "type": "directory",
+      "files": [
+        {
+          "name": "penn_cloud.png",
+          "type": "file",
+          "file_type": "Other",
+          "size": 168908,
+          "rel_path": "frontend/static/images/penn_cloud.png"
+        }
+      ],
+      "subdirs": []
+    },
+    "frontend/static": {
+      "name": "static",
+      "type": "directory",
+      "files": [
+        {
+          "name": "2048_en.html",
+          "type": "file",
+          "file_type": "HTML",
+          "size": 17711,
+          "rel_path": "frontend/static/2048_en.html"
+        },
+        {
+          "name": "style.css",
+          "type": "file",
+          "file_type": "CSS",
+          "size": 5464,
+          "rel_path": "frontend/static/style.css"
+        }
+      ],
+      "subdirs": [
+        {
+          "name": "images",
+          "type": "directory",
+          "files": [
+            {
+              "name": "penn_cloud.png",
+              "type": "file",
+              "file_type": "Other",
+              "size": 168908,
+              "rel_path": "frontend/static/images/penn_cloud.png"
+            }
+          ],
+          "subdirs": []
+        }
+      ]
+    },
+    "frontend": {
+      "name": "frontend",
+      "type": "directory",
+      "files": [
+        {
+          "name": "frontend_load_balancer.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 14053,
+          "rel_path": "frontend/frontend_load_balancer.cc"
+        },
+        {
+          "name": "json.hpp",
+          "type": "file",
+          "file_type": "Other",
+          "size": 932685,
+          "rel_path": "frontend/json.hpp"
+        },
+        {
+          "name": "base64.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 376,
+          "rel_path": "frontend/base64.h"
+        },
+        {
+          "name": "storage_service.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 14225,
+          "rel_path": "frontend/storage_service.cc"
+        },
+        {
+          "name": "admin_service.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 11083,
+          "rel_path": "frontend/admin_service.cc"
+        },
+        {
+          "name": "storage_service.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 779,
+          "rel_path": "frontend/storage_service.h"
+        },
+        {
+          "name": "storage_client.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 17005,
+          "rel_path": "frontend/storage_client.h"
+        },
+        {
+          "name": "mail_service.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 22892,
+          "rel_path": "frontend/mail_service.cc"
+        },
+        {
+          "name": "session_manager.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 768,
+          "rel_path": "frontend/session_manager.h"
+        },
+        {
+          "name": "mail_service.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 1925,
+          "rel_path": "frontend/mail_service.h"
+        },
+        {
+          "name": "system_meta.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 4778,
+          "rel_path": "frontend/system_meta.h"
+        },
+        {
+          "name": "session_manager.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 3916,
+          "rel_path": "frontend/session_manager.cc"
+        },
+        {
+          "name": "backend_client.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 6686,
+          "rel_path": "frontend/backend_client.h"
+        },
+        {
+          "name": "frontend_server.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 22245,
+          "rel_path": "frontend/frontend_server.cc"
+        },
+        {
+          "name": "base64.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 3773,
+          "rel_path": "frontend/base64.cc"
+        },
+        {
+          "name": "admin_service.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 267,
+          "rel_path": "frontend/admin_service.h"
+        }
+      ],
+      "subdirs": [
+        {
+          "name": "static",
+          "type": "directory",
+          "files": [
+            {
+              "name": "2048_en.html",
+              "type": "file",
+              "file_type": "HTML",
+              "size": 17711,
+              "rel_path": "frontend/static/2048_en.html"
+            },
+            {
+              "name": "style.css",
+              "type": "file",
+              "file_type": "CSS",
+              "size": 5464,
+              "rel_path": "frontend/static/style.css"
+            }
+          ],
+          "subdirs": [
+            {
+              "name": "images",
+              "type": "directory",
+              "files": [
+                {
+                  "name": "penn_cloud.png",
+                  "type": "file",
+                  "file_type": "Other",
+                  "size": 168908,
+                  "rel_path": "frontend/static/images/penn_cloud.png"
+                }
+              ],
+              "subdirs": []
+            }
+          ]
+        }
+      ]
+    },
+    "mailbox": {
+      "name": "mailbox",
+      "type": "directory",
+      "files": [
+        {
+          "name": "charlie.mbox",
+          "type": "file",
+          "file_type": "Other",
+          "size": 92,
+          "rel_path": "mailbox/charlie.mbox"
+        },
+        {
+          "name": "alice.mbox",
+          "type": "file",
+          "file_type": "Other",
+          "size": 357,
+          "rel_path": "mailbox/alice.mbox"
+        },
+        {
+          "name": "mqueue",
+          "type": "file",
+          "file_type": "Other",
+          "size": 0,
+          "rel_path": "mailbox/mqueue"
+        },
+        {
+          "name": "bob.mbox",
+          "type": "file",
+          "file_type": "Other",
+          "size": 0,
+          "rel_path": "mailbox/bob.mbox"
+        }
+      ],
+      "subdirs": []
+    },
+    "tests": {
+      "name": "tests",
+      "type": "directory",
+      "files": [
+        {
+          "name": "hash_tester.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 2110,
+          "rel_path": "tests/hash_tester.cc"
+        },
+        {
+          "name": "system_meta.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 4309,
+          "rel_path": "tests/system_meta.h"
+        },
+        {
+          "name": "bigtable_tester.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 3228,
+          "rel_path": "tests/bigtable_tester.cc"
+        },
+        {
+          "name": "bigtable.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 9737,
+          "rel_path": "tests/bigtable.h"
+        },
+        {
+          "name": "system_meta_test.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 2636,
+          "rel_path": "tests/system_meta_test.cc"
+        }
+      ],
+      "subdirs": []
+    },
+    "email_backend": {
+      "name": "email_backend",
+      "type": "directory",
+      "files": [
+        {
+          "name": "base64.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 376,
+          "rel_path": "email_backend/base64.h"
+        },
+        {
+          "name": "pop3.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 20980,
+          "rel_path": "email_backend/pop3.cc"
+        },
+        {
+          "name": "smtp.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 17475,
+          "rel_path": "email_backend/smtp.cc"
+        },
+        {
+          "name": "storage_client.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 14169,
+          "rel_path": "email_backend/storage_client.h"
+        },
+        {
+          "name": "system_meta.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 4778,
+          "rel_path": "email_backend/system_meta.h"
+        },
+        {
+          "name": "email_relay.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 7289,
+          "rel_path": "email_backend/email_relay.cc"
+        },
+        {
+          "name": "base64.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 3988,
+          "rel_path": "email_backend/base64.cc"
+        }
+      ],
+      "subdirs": []
+    },
+    ".": {
+      "name": "s\u2011n\u2011f_k1gmwor5",
+      "type": "directory",
+      "files": [
+        {
+          "name": "storage_server",
+          "type": "file",
+          "file_type": "Other",
+          "size": 878352,
+          "rel_path": "storage_server"
+        },
+        {
+          "name": "Makefile",
+          "type": "file",
+          "file_type": "Other",
+          "size": 1799,
+          "rel_path": "Makefile",
+          "content": "CXX = g++\nCXXFLAGS = -std=c++17 -Wall -g\nLDFLAGS = -lpthread\nSSL_FLAGS = -lssl -lcrypto\n\n# Detect OS for OpenSSL configuration - for macOS\nUNAME_S := $(shell uname -s)\nifeq ($(UNAME_S),Darwin)\n    # macOS specific OpenSSL paths (installed via Homebrew)\n    OPENSSL_PREFIX = $(shell brew --prefix openssl@3)\n    CXXFLAGS += -I$(OPENSSL_PREFIX)/include\n    LDFLAGS += -L$(OPENSSL_PREFIX)/lib\nendif\n\nTEST_DIR = tests\nFRONTEND_DIR = frontend\nEMAIL_BE_DIR = email_backend\nTARGETS = storage_node frontend_server frontend_load_balancer smtp pop3 email_relay bigtable_tester coordinator\n\nall: $(TARGETS)\n\nstorage_node: storage_node.cc\n\t$(CXX) $(CXXFLAGS) $< $(LDFLAGS) -o $@\n\nadmin_backend: admin_backend.cc\n\tg++ $^ -lpthread -g -o $@\n\nfrontend_server: $(FRONTEND_DIR)/frontend_server.cc $(FRONTEND_DIR)/session_manager.cc \\\n                 $(FRONTEND_DIR)/mail_service.cc $(FRONTEND_DIR)/storage_service.cc \\\n                 $(FRONTEND_DIR)/admin_service.cc\n\t$(CXX) $(CXXFLAGS) $^ $(LDFLAGS) -o $@\n\nfronte... [truncated]"
+        },
+        {
+          "name": "admin_backend",
+          "type": "file",
+          "file_type": "Other",
+          "size": 440160,
+          "rel_path": "admin_backend"
+        },
+        {
+          "name": "servers.txt",
+          "type": "file",
+          "file_type": "Other",
+          "size": 135,
+          "rel_path": "servers.txt"
+        },
+        {
+          "name": "admin_backend.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 29998,
+          "rel_path": "admin_backend.cc"
+        },
+        {
+          "name": "README",
+          "type": "file",
+          "file_type": "Other",
+          "size": 33,
+          "rel_path": "README"
+        },
+        {
+          "name": "README.md",
+          "type": "file",
+          "file_type": "Markdown",
+          "size": 3796,
+          "rel_path": "README.md",
+          "content": "# PennCloud\n\nPennCloud is a simplified cloud service prototype that provides user authentication,\nemail inbox, file storage, and an admin console via a web frontend.\n\n# Overview\n\nFrontend Server:\n- Serves a login page and handles user authentication.\n- Manages user sessions using cookies.\n- Provides a dashboard, from which users can navigate to their inbox, storage (drive),\n  and admin console (for admin users).\n- Integrates with backend services to fetch and store email messages and files.\n\nBackend Server (Planned/Partially Implemented):\n- Handles data operations for user accounts, email, and file storage.\n- Will provide APIs for the frontend to list, upload, download, and manage data.\n\n\n# Features\n\n- Login & Session Management:\n  Users can log in with a username and password. Sessions are maintained via `sid` cookies.\n\n- Dashboard:\n  After logging in, users see a dashboard with options to access Inbox (mail), Drive (storage),\n  and Admin console (if the user is admin).\n\n- Mail (Inbox... [truncated]"
+        },
+        {
+          "name": "launch_backend.sh",
+          "type": "file",
+          "file_type": "Other",
+          "size": 2790,
+          "rel_path": "launch_backend.sh"
+        },
+        {
+          "name": ".gitignore",
+          "type": "file",
+          "file_type": "Git Config",
+          "size": 3421,
+          "rel_path": ".gitignore"
+        },
+        {
+          "name": "system_meta.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 4881,
+          "rel_path": "system_meta.h"
+        },
+        {
+          "name": "checkpoint.sh",
+          "type": "file",
+          "file_type": "Other",
+          "size": 842,
+          "rel_path": "checkpoint.sh"
+        },
+        {
+          "name": "coordinator.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 899,
+          "rel_path": "coordinator.h"
+        },
+        {
+          "name": "storage_node.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 47744,
+          "rel_path": "storage_node.cc"
+        },
+        {
+          "name": "coordinator.cc",
+          "type": "file",
+          "file_type": "Other",
+          "size": 30983,
+          "rel_path": "coordinator.cc"
+        },
+        {
+          "name": "bigtable.h",
+          "type": "file",
+          "file_type": "Other",
+          "size": 11024,
+          "rel_path": "bigtable.h"
+        },
+        {
+          "name": "mac_servers.txt",
+          "type": "file",
+          "file_type": "Other",
+          "size": 135,
+          "rel_path": "mac_servers.txt"
+        },
+        {
+          "name": "launch_frontend.sh",
+          "type": "file",
+          "file_type": "Other",
+          "size": 990,
+          "rel_path": "launch_frontend.sh"
+        }
+      ],
+      "subdirs": [
+        {
+          "name": "frontend",
+          "type": "directory",
+          "files": [
+            {
+              "name": "frontend_load_balancer.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 14053,
+              "rel_path": "frontend/frontend_load_balancer.cc"
+            },
+            {
+              "name": "json.hpp",
+              "type": "file",
+              "file_type": "Other",
+              "size": 932685,
+              "rel_path": "frontend/json.hpp"
+            },
+            {
+              "name": "base64.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 376,
+              "rel_path": "frontend/base64.h"
+            },
+            {
+              "name": "storage_service.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 14225,
+              "rel_path": "frontend/storage_service.cc"
+            },
+            {
+              "name": "admin_service.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 11083,
+              "rel_path": "frontend/admin_service.cc"
+            },
+            {
+              "name": "storage_service.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 779,
+              "rel_path": "frontend/storage_service.h"
+            },
+            {
+              "name": "storage_client.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 17005,
+              "rel_path": "frontend/storage_client.h"
+            },
+            {
+              "name": "mail_service.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 22892,
+              "rel_path": "frontend/mail_service.cc"
+            },
+            {
+              "name": "session_manager.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 768,
+              "rel_path": "frontend/session_manager.h"
+            },
+            {
+              "name": "mail_service.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 1925,
+              "rel_path": "frontend/mail_service.h"
+            },
+            {
+              "name": "system_meta.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 4778,
+              "rel_path": "frontend/system_meta.h"
+            },
+            {
+              "name": "session_manager.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 3916,
+              "rel_path": "frontend/session_manager.cc"
+            },
+            {
+              "name": "backend_client.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 6686,
+              "rel_path": "frontend/backend_client.h"
+            },
+            {
+              "name": "frontend_server.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 22245,
+              "rel_path": "frontend/frontend_server.cc"
+            },
+            {
+              "name": "base64.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 3773,
+              "rel_path": "frontend/base64.cc"
+            },
+            {
+              "name": "admin_service.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 267,
+              "rel_path": "frontend/admin_service.h"
+            }
+          ],
+          "subdirs": [
+            {
+              "name": "static",
+              "type": "directory",
+              "files": [
+                {
+                  "name": "2048_en.html",
+                  "type": "file",
+                  "file_type": "HTML",
+                  "size": 17711,
+                  "rel_path": "frontend/static/2048_en.html"
+                },
+                {
+                  "name": "style.css",
+                  "type": "file",
+                  "file_type": "CSS",
+                  "size": 5464,
+                  "rel_path": "frontend/static/style.css"
+                }
+              ],
+              "subdirs": [
+                {
+                  "name": "images",
+                  "type": "directory",
+                  "files": [
+                    {
+                      "name": "penn_cloud.png",
+                      "type": "file",
+                      "file_type": "Other",
+                      "size": 168908,
+                      "rel_path": "frontend/static/images/penn_cloud.png"
+                    }
+                  ],
+                  "subdirs": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mailbox",
+          "type": "directory",
+          "files": [
+            {
+              "name": "charlie.mbox",
+              "type": "file",
+              "file_type": "Other",
+              "size": 92,
+              "rel_path": "mailbox/charlie.mbox"
+            },
+            {
+              "name": "alice.mbox",
+              "type": "file",
+              "file_type": "Other",
+              "size": 357,
+              "rel_path": "mailbox/alice.mbox"
+            },
+            {
+              "name": "mqueue",
+              "type": "file",
+              "file_type": "Other",
+              "size": 0,
+              "rel_path": "mailbox/mqueue"
+            },
+            {
+              "name": "bob.mbox",
+              "type": "file",
+              "file_type": "Other",
+              "size": 0,
+              "rel_path": "mailbox/bob.mbox"
+            }
+          ],
+          "subdirs": []
+        },
+        {
+          "name": "tests",
+          "type": "directory",
+          "files": [
+            {
+              "name": "hash_tester.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 2110,
+              "rel_path": "tests/hash_tester.cc"
+            },
+            {
+              "name": "system_meta.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 4309,
+              "rel_path": "tests/system_meta.h"
+            },
+            {
+              "name": "bigtable_tester.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 3228,
+              "rel_path": "tests/bigtable_tester.cc"
+            },
+            {
+              "name": "bigtable.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 9737,
+              "rel_path": "tests/bigtable.h"
+            },
+            {
+              "name": "system_meta_test.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 2636,
+              "rel_path": "tests/system_meta_test.cc"
+            }
+          ],
+          "subdirs": []
+        },
+        {
+          "name": "email_backend",
+          "type": "directory",
+          "files": [
+            {
+              "name": "base64.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 376,
+              "rel_path": "email_backend/base64.h"
+            },
+            {
+              "name": "pop3.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 20980,
+              "rel_path": "email_backend/pop3.cc"
+            },
+            {
+              "name": "smtp.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 17475,
+              "rel_path": "email_backend/smtp.cc"
+            },
+            {
+              "name": "storage_client.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 14169,
+              "rel_path": "email_backend/storage_client.h"
+            },
+            {
+              "name": "system_meta.h",
+              "type": "file",
+              "file_type": "Other",
+              "size": 4778,
+              "rel_path": "email_backend/system_meta.h"
+            },
+            {
+              "name": "email_relay.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 7289,
+              "rel_path": "email_backend/email_relay.cc"
+            },
+            {
+              "name": "base64.cc",
+              "type": "file",
+              "file_type": "Other",
+              "size": 3988,
+              "rel_path": "email_backend/base64.cc"
+            }
+          ],
+          "subdirs": []
+        }
+      ]
+    }
+  },
+  "files_by_type": {
+    "Other": 48,
+    "HTML": 1,
+    "CSS": 1,
+    "Markdown": 1,
+    "Git Config": 1
+  },
+  "language_breakdown": {
+    "Other": 92.31,
+    "HTML": 1.92,
+    "CSS": 1.92,
+    "Markdown": 1.92,
+    "Git Config": 1.92
+  },
+  "components": [
+    {
+      "type": "frontend",
+      "path": "frontend/static/images",
+      "name": "images"
+    },
+    {
+      "type": "frontend",
+      "path": "frontend/static",
+      "name": "static"
+    },
+    {
+      "type": "frontend",
+      "path": "frontend",
+      "name": "frontend"
+    },
+    {
+      "type": "backend",
+      "path": "email_backend",
+      "name": "email_backend"
+    },
+    {
+      "type": "tests",
+      "path": "tests",
+      "name": "tests"
+    },
+    {
+      "type": "tests",
+      "path": "tests",
+      "name": "tests"
+    },
+    {
+      "type": "framework",
+      "framework": "Spring",
+      "path": "frontend",
+      "name": "Spring (frontend)"
+    }
+  ],
+  "dependencies": [],
+  "remote_url": "https://github.com/CIS5550/fa24-cis5050-T02.git",
+  "main_branch": "main",
+  "commit_count": 1,
+  "contributors": [
+    "Lixin Li"
+  ]
+}

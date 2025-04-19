@@ -1,0 +1,21 @@
+flowchart TD
+    subgraph frontend_group ["Frontend"]
+        direction TB
+        frontend["frontend"]
+        static["static"]
+        images["images"]
+        spring_frontend["Spring (frontend)"]
+        frontend --> static
+        static --> images
+        frontend --> spring_frontend
+    end
+
+    subgraph backend_group ["Backend"]
+        direction TB
+        email_backend["email_backend"]
+    end
+
+    subgraph tests_group ["Tests"]
+        direction TB
+        tests["tests"]
+    end

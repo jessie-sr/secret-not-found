@@ -1,0 +1,27 @@
+flowchart TD
+    subgraph cluster_frontend [Frontend]
+        direction TB
+        frontend["frontend"]
+        static["static"]
+        images["images"]
+        Spring["Spring (frontend)"]
+        frontend --> static
+        static --> images
+        style frontend fill:#f9f,stroke:#333,stroke-width:2px
+        style static fill:#ccf,stroke:#333,stroke-width:2px
+        style images fill:#ccf,stroke:#333,stroke-width:2px
+        style Spring fill:#ccf,stroke:#333,stroke-width:2px
+    end
+    subgraph cluster_backend [Backend]
+        direction TB
+        email_backend["email_backend"]
+        style email_backend fill:#ccf,stroke:#333,stroke-width:2px
+    end
+    subgraph cluster_tests [Tests]
+        direction TB
+        tests["tests"]
+        style tests fill:#ccf,stroke:#333,stroke-width:2px
+    end
+
+    cluster_frontend --> cluster_backend
+    cluster_backend --> cluster_tests
