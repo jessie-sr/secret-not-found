@@ -10,7 +10,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || {
 }
 
 HOOK_PATH="$REPO_ROOT/.git/hooks/pre-push"           # where Git looks
-INSTALL_PY="$REPO_ROOT/secret-not-found/install.py"  # adjust if renamed
+INSTALL_PY="$REPO_ROOT/secret-not-found/install.py"
 
 # --- 1. install the hook if needed -------------------------------------------
 if [[ ! -x "$HOOK_PATH" ]]; then
