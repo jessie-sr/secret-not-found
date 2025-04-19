@@ -1,1 +1,1 @@
-const STRIPE_KEY = 'sk_live_1234567890abcdef';
+const STRIPE_KEY = 'sk_live_51ABCDEFGHIJKLMNOPQRSTUVWXYZabcd';
