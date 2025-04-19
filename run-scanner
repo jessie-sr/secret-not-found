@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# .git/hooks/run-scanner → runs scanner, unless user opted out
-
-python3 "$(git rev-parse --show-toplevel)/secret-not-found/scanner.py"
-STATUS=$?
-exit $STATUS
