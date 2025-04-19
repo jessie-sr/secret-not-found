@@ -20,7 +20,7 @@ cd secret_not_found_test
 bash secret-not-found/scan.sh
 ```
 
-## (Opeional) Trigger a *failing* push
+## (Optional) Trigger a *failing* push
 ```bash
 echo "const STRIPE_KEY = 'sk_live_12345678901234567890abcd';" > leak.js
 git add leak.js
